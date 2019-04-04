@@ -35,6 +35,7 @@ public class HomeController
 		model.addObject("message", "Custom message from Bijay Controller");
 		logger.debug("Debug Inside the logger");
 		logger.warn("Warn Inside the logger");
+		logger.warn("This is welcome file");
 		return model;
 	}
 
