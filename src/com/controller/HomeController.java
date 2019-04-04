@@ -36,6 +36,7 @@ public class HomeController
 		logger.debug("Debug Inside the logger");
 		logger.warn("Warn Inside the logger");
 		logger.warn("This is welcome file");
+		logger.warn("This is welcome file");
 		return model;
 	}
 
