@@ -34,6 +34,7 @@ public class HomeController
 		ModelAndView model = new ModelAndView("home");
 		model.addObject("message", "Custom message from Bijay Controller");
 		logger.debug("Debug Inside the logger");
+		logger.warn("This is home page");
 		logger.warn("Warn Inside the logger");
 		logger.warn("This is welcome file");
 		logger.warn("This is welcome file");
@@ -47,6 +48,7 @@ public class HomeController
 		model.addObject("message", "From fetchStudent function");
 		logger.debug("Debug Inside the logger");
 		logger.warn("Warn Inside the logger");
+		logger.warn("Inside fetch");
 		modelObj.addAttribute("studentForm", new Student());
 
 		return model;
