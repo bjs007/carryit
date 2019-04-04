@@ -48,7 +48,7 @@ public class HomeController
 		model.addObject("message", "From fetchStudent function");
 		logger.debug("Debug Inside the logger");
 		logger.warn("Warn Inside the logger");
-		logger.warn("Inside fetch");
+		logger.warn("Inside fetch is changed now");
 		modelObj.addAttribute("studentForm", new Student());
 
 		return model;
